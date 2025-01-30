@@ -1,0 +1,18 @@
+<%- layout('boilerplate') -%> 
+
+<h1>Edit To-Do Item</h1>
+
+<form action="/todo/<%=todos._id%>/update?_method=put" method="post" class="">
+
+    <h3>Edit Item</h3>
+
+    <input name="title" type="text" value="<%=todos.title%>">
+
+    <textarea name="description" id="description"><%=todos.description%></textarea>
+
+    <button class="btn btn-success">Submit Edit</button>
+
+    
+
+</form>
+

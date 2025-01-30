@@ -1,0 +1,26 @@
+
+body { 
+    Background-color: #eaeaea; 
+    
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+
+}
+
+h1{
+    font-family: Raleway; 
+    text-align: center;
+    font-weight: 900;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between elements */
+    max-width: 400px;
+}
+
+#newTodoTitle{
+    text-align: center;
+}
